@@ -1,0 +1,22 @@
+# 桌面虚拟人物 - 依赖
+# pip install -r requirements.txt
+
+# 3D 渲染引擎
+panda3d>=1.10.0
+
+# AI 大脑 (DeepSeek / OpenAI 兼容)
+openai>=1.0.0
+
+# 人设配置
+pyyaml>=6.0
+
+# 语音合成（免费，Windows 系统语音已内建）
+edge-tts>=7.0
+
+# 系统交互（热键、托盘图标）
+keyboard>=0.13
+pywin32>=300
+
+# 系统托盘（可选）
+pystray>=0.19
+Pillow>=10.0
